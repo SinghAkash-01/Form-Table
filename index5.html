@@ -14,10 +14,21 @@
         <div class="input">Grade: <input id="grade" type="text" placeholder="A" /> </div>
         <div class="input">Gender: 
             <select name="gender" id="gender">
+                <option value=" ">Select Gender</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
         </div>
+        <div class="input">Favorite Language: </div>
+        <form id="fav_lang">
+            <input id="html-lang" type="radio" name="fav_language" value="HTML" /> 
+            <label for="html-lang">HTML</label>
+            <input id="css" type="radio" name="fav_language" value="CSS" /> 
+            <label for="css">CSS</label>
+            <input id="javaScript" type="radio" name="fav_language" value="JAVASCRIPT" /> 
+            <label for="javaScript">JAVASCRIPT</label>
+        </form>
+
         <button id="entry">Input Entry</button>
     </div>
 
@@ -27,6 +38,7 @@
             <th>Age</th>
             <th>Grade</th>
             <th>Gender</th>
+            <th>Favorite Language</th>
         </tr>
     </table>
 
