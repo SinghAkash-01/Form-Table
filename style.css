@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    text-align: center;
+}
+
+#nameDiv {
+    margin-top: 50px;
+}
+
+.input {
+    font-size: 25px;
+    color: #648164;
+    font-weight: 700;
+    margin: 20px;
+}
+
+#entry {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    background-color: #323438;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: #6b6a68;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th {
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+td {
+    font-size: 20px;
+    color: White;
+    font-weight: 400;
+}
+
+#gender {
+    padding-right: 100px;
+}
